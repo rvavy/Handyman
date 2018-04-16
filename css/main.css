@@ -1,0 +1,508 @@
+body {
+/* Defines the Main body */
+  background-color: #333366 ;
+  font-size:14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.body {
+  clear: both;
+  margin: 0 auto;
+}
+
+
+}
+
+/* Defines the  Primary navigation Bar */
+#primary-navbar {
+  display: block;
+  text-align: right;
+  height: 35px;
+  background-color: #909090;
+}
+
+#primary-navbar ul { 
+  list-style-type: none; 
+  padding: 0px 0px;
+  margin: 0px 0px;
+  overflow: hidden;
+}
+ 
+#primary-navbar ul li {
+display: inline-block;
+}
+
+#primary-navbar ul li a { 
+  display: inline-block;
+  padding: 0px 7.5px; 
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 35px; 
+  font-weight: bold; 
+  margin-right: 10px;
+  text-shadow: 0px 0px 0px #000;
+}
+
+
+#navbar {
+  display: block;
+  text-align: center;
+  height: auto; /* Was 80px, changed to auto seems to fix button not inline with logo issue with navbar */
+  margin-bottom: 3%;
+  background-color: #909090;
+}
+
+#navbar ul { 
+  list-style-type: none;
+  padding: 0px 0px; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+#navbar ul li {
+display: inline-block; 
+}
+
+#navbar ul li a { 
+  display: inline-block;
+  padding: 10px 15px; 
+  width: 95px;
+  color: #000000;
+  text-decoration: none;
+  line-height: 60px; 
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-shadow: 0px 0px 0px #000;
+}
+
+#navbar .logo {
+    background: url("../images/logo1.png") 50% 0 no-repeat;
+    height: 80px;
+    width: 80px;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+
+.maincontent {
+  overflow: hidden;
+  line-height: 25px;
+}
+
+.content {
+  background-color: #FFFFFF;  
+  margin-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  padding-right: 5%;
+  width: 90%;
+  float: left;
+}
+
+.content h2{
+  text-align: center;
+}
+
+/* CSS that defines the footer */
+.mainfooter {
+  background-color: #333366;
+  width: 100%;
+  float: left;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.mainfooter p{
+  display: inline-block;
+  padding: 0px 7.5px; 
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 35px; 
+  font-weight: bold; 
+  margin-right: 10px;
+  text-shadow: 0px 0px 0px #000;
+  text-align: center;
+	
+	
+}
+
+
+.footer-container {
+  overflow: hidden;
+  background-color: #909090 ;
+  padding-bottom: 2%;
+}
+
+.footer-container h4{
+  color: #ffffff;
+}
+
+.footer-column-left {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 33.3%;
+}
+
+.footer-column-mid {
+  text-align: center;
+  color: #000000;
+  position: relative;
+  float: left;
+  width: 33.3%;
+}
+
+.footer-column-right {
+  text-align: center;
+  position: relative;
+  float: right;
+  width: 33.3%;
+}
+
+footer ul {
+list-style: none;
+margin: 0px 0px;
+padding: 0px 0px;
+}
+
+footer a:link, footer a:visited {
+color: #ccc;
+}
+
+footer p{ 
+color: #ccc;
+}
+
+footer form{
+  color:#ccc;
+}
+
+footer form button{
+  background-color:#E31E27;
+  border:  solid transparent;
+/*  border-color: #E31E27;*/
+  border-radius: 5px;
+  line-height: 25px;
+  padding: 0 0;
+  margin: 0 0;
+  width:80px;
+  color: #ccc;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons img{
+  width: 25px;
+}
+
+
+/* CSS which defines the login page. */
+
+.maincontent .login {
+margin: 20px auto;
+width: 300px;
+}
+.maincontent .login-screen {
+background-color: #f3f3f3;
+padding: 20px;
+border-radius: 5px
+}
+
+.maincontent .app-title {
+text-align: center;
+color: #777;
+}
+
+.maincontent .login-form {
+text-align: center;
+}
+.maincontent .control-group {
+margin-bottom: 10px;
+}
+
+.maincontent input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.maincontent input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.maincontent .btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.maincontent .btn:hover {
+  background-color: #2980B9;
+}
+
+.maincontent .login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+
+/* CSS that defines the register page*/
+.maincontent .Register {
+margin: 20px auto;
+width: 300px;
+}
+.maincontent .Register-screen {
+background-color: #f3f3f3;
+padding: 20px;
+border-radius: 5px
+}
+
+.maincontent .app-title {
+text-align: center;
+color: #777;
+}
+
+.maincontent .Register-form {
+text-align: center;
+}
+.maincontent .control-group {
+margin-bottom: 10px;
+}
+
+.maincontent input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.maincontent input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.maincontent .btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.maincontent .btn:hover {
+  background-color: #2980B9;
+}
+
+.maincontent .Register-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+
+
+/* Account CSS */
+.maincontent .Account {
+margin: 20px auto;
+width: 300px;
+}
+.maincontent .Account-screen {
+background-color: #f3f3f3;
+padding: 20px;
+border-radius: 5px
+}
+
+.maincontent .Account-title {
+text-align: center;
+color: #777;
+}
+
+.maincontent .Account-form {
+text-align: center;
+}
+.maincontent .control-group {
+margin-bottom: 10px;
+}
+
+.maincontent input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.maincontent input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.maincontent .btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.maincontent .btn:hover {
+  background-color: #2980B9;
+}
+
+.maincontent .Account-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+
+
+
+/* Product CSS */
+.maincontent .Product {
+margin: 20px auto;
+width: 300px;
+}
+.maincontent .Product-screen {
+background-color: #f3f3f3;
+padding: 20px;
+border-radius: 5px
+}
+
+.maincontent .app-title {
+text-align: center;
+color: #777;
+}
+
+.maincontent .Product-form {
+text-align: center;
+}
+.maincontent .control-group {
+margin-bottom: 10px;
+}
+
+.maincontent input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+.maincontent input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.maincontent .btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.maincontent .btn:hover {
+  background-color: #2980B9;
+}
+
+.maincontent .Product-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+
+  
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
